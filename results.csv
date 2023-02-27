@@ -66,3 +66,113 @@
 6992, callback, writeFile, 100000
 28889, callback, writeFile, 300000
 384259, callback, writeFile, 1000000
+3, promise, writeFile, 10
+4, promise, writeFile, 30
+26, promise, writeFile, 100
+104, promise, writeFile, 300
+145, promise, writeFile, 1000
+495, promise, writeFile, 3000
+1199, promise, writeFile, 10000
+3883, promise, writeFile, 30000
+14789, promise, writeFile, 100000
+64217, promise, writeFile, 300000
+1, sync, write, 10
+1, sync, write, 30
+3, sync, write, 100
+10, sync, write, 300
+57, sync, write, 1000
+134, sync, write, 3000
+358, sync, write, 10000
+1051, sync, write, 30000
+3461, sync, write, 100000
+11628, sync, write, 300000
+144660, sync, write, 1000000
+4, callback, write, 10
+27, callback, write, 30
+253, callback, write, 100
+185, callback, write, 300
+370, callback, write, 1000
+786, callback, write, 3000
+2449, callback, write, 10000
+6493, callback, write, 30000
+24608, callback, write, 100000
+105805, callback, write, 300000
+3, promise, write, 10
+26, promise, write, 30
+175, promise, write, 100
+547, promise, write, 300
+2058, promise, write, 1000
+4223, promise, write, 3000
+8738, promise, write, 10000
+16210, promise, write, 30000
+42177, promise, write, 100000
+209737, promise, write, 300000
+20, syncWorkers, write, 10, 4
+2, syncWorkers, write, 30, 4
+2, syncWorkers, write, 100, 4
+4, syncWorkers, write, 300, 4
+902, syncWorkers, write, 1000, 4
+65, syncWorkers, write, 3000, 4
+162, syncWorkers, write, 10000, 4
+450, syncWorkers, write, 30000, 4
+1463, syncWorkers, write, 100000, 4
+5560, syncWorkers, write, 300000, 4
+133276, syncWorkers, write, 1000000, 4
+4, syncWorkers, write, 10, 4
+2, syncWorkers, write, 30, 4
+3, syncWorkers, write, 100, 4
+4, syncWorkers, write, 300, 4
+29, syncWorkers, write, 1000, 4
+62, syncWorkers, write, 3000, 4
+165, syncWorkers, write, 10000, 4
+469, syncWorkers, write, 30000, 4
+1439, syncWorkers, write, 100000, 4
+5576, syncWorkers, write, 300000, 4
+127831, syncWorkers, write, 1000000, 4
+3, syncWorkers, write, 10, 4
+4, syncWorkers, write, 10, 4
+2, syncWorkers, write, 30, 4
+4, syncWorkers, write, 100, 4
+31, syncWorkers, write, 300, 4
+41, syncWorkers, write, 1000, 4
+816, syncWorkers, write, 3000, 4
+2975, syncWorkers, write, 10000, 4
+4705, syncWorkers, write, 30000, 4
+3, syncWorkers, write, 10, 4
+11, syncWorkers, write, 30, 4
+5, syncWorkers, write, 100, 4
+13, syncWorkers, write, 300, 4
+74, syncWorkers, write, 1000, 4
+1, syncWorkers, write, 10, 4
+2, syncWorkers, write, 30, 4
+3, syncWorkers, write, 100, 4
+3, syncWorkers, write, 300, 4
+27, syncWorkers, write, 1000, 4
+53, syncWorkers, write, 3000, 4
+123, syncWorkers, write, 10000, 4
+307, syncWorkers, write, 30000, 4
+1036, syncWorkers, write, 100000, 4
+4270, syncWorkers, write, 300000, 4
+137530, syncWorkers, write, 1000000, 4
+1, syncWorkers, write, 10, 4
+1, syncWorkers, write, 30, 4
+4, syncWorkers, write, 100, 4
+3, syncWorkers, write, 300, 4
+28, syncWorkers, write, 1000, 4
+54, syncWorkers, write, 3000, 4
+123, syncWorkers, write, 10000, 4
+308, syncWorkers, write, 30000, 4
+1023, syncWorkers, write, 100000, 4
+4394, syncWorkers, write, 300000, 4
+137835, syncWorkers, write, 1000000, 4
+1, syncWorkers, write, 10, 4
+2, syncWorkers, write, 30, 4
+3, syncWorkers, write, 100, 4
+3, syncWorkers, write, 300, 4
+26, syncWorkers, write, 1000, 4
+54, syncWorkers, write, 3000, 4
+118, syncWorkers, write, 10000, 4
+278, syncWorkers, write, 30000, 4
+940, syncWorkers, write, 100000, 4
+3937, syncWorkers, write, 300000, 4
+130572, syncWorkers, write, 1000000, 4
