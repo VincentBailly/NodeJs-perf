@@ -5,7 +5,7 @@ function measureSync(fn) {
   fn();
   let t1 = performance.now();
   let duration = t1 - t0;
-  return Math.round(duration);
+  return duration;
 }
 
 function measureCallback(fn, callback) {
@@ -14,7 +14,7 @@ function measureCallback(fn, callback) {
     if (err) { callback(err); return; }
     let t1 = performance.now();
     let duration = t1 - t0;
-    callback(0, Math.round(duration));
+    callback(0, duration);
   });
 }
 
@@ -23,7 +23,7 @@ async function measurePromise(fn) {
   await fn();
   let t1 = performance.now();
   let duration = t1 - t0;
-  return Math.round(duration);
+  return duration;
 }
 
 export const measure = {

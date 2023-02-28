@@ -1,178 +1,207 @@
-534, sync, copy, 2000
-531, sync, copy, 2000
-0, sync, copy, 10
-1, sync, copy, 30
-5, sync, copy, 100
-12, sync, copy, 300
-202, sync, copy, 1000
-807, sync, copy, 3000
-2741, sync, copy, 10000
-8326, sync, copy, 30000
-29179, sync, copy, 100000
-96456, sync, copy, 300000
-0, sync, copy, 10
-1, sync, copy, 30
-4, sync, copy, 100
-12, sync, copy, 300
-152, sync, copy, 1000
-760, sync, copy, 3000
-2876, sync, copy, 10000
-8465, sync, copy, 30000
-28925, sync, copy, 100000
-89466, sync, copy, 300000
-400683, sync, copy, 1000000
-4, callback, copy, 10
-5, callback, copy, 30
-18, callback, copy, 100
-86, callback, copy, 300
-314, callback, copy, 1000
-831, callback, copy, 3000
-2828, callback, copy, 10000
-8459, callback, copy, 30000
-29351, callback, copy, 100000
-92580, callback, copy, 300000
-393990, callback, copy, 1000000
-2, promise, copy, 10
-5, promise, copy, 30
-69, promise, copy, 100
-153, promise, copy, 300
-280, promise, copy, 1000
-1109, promise, copy, 3000
-2773, promise, copy, 10000
-8480, promise, copy, 30000
-29184, promise, copy, 100000
-89220, promise, copy, 300000
-396268, promise, copy, 1000000
-1, sync, writeFile, 10
-2, sync, writeFile, 30
-4, sync, writeFile, 100
-13, sync, writeFile, 300
-73, sync, writeFile, 1000
-394, sync, writeFile, 3000
-431, sync, writeFile, 10000
-1218, sync, writeFile, 30000
-4159, sync, writeFile, 100000
-13682, sync, writeFile, 300000
-149292, sync, writeFile, 1000000
-459624, sync, writeFile, 3000000
-30, callback, writeFile, 10
-3, callback, writeFile, 30
-54, callback, writeFile, 100
-58, callback, writeFile, 300
-197, callback, writeFile, 1000
-176, callback, writeFile, 3000
-602, callback, writeFile, 10000
-1905, callback, writeFile, 30000
-6992, callback, writeFile, 100000
-28889, callback, writeFile, 300000
-384259, callback, writeFile, 1000000
-3, promise, writeFile, 10
-4, promise, writeFile, 30
-26, promise, writeFile, 100
-104, promise, writeFile, 300
-145, promise, writeFile, 1000
-495, promise, writeFile, 3000
-1199, promise, writeFile, 10000
-3883, promise, writeFile, 30000
-14789, promise, writeFile, 100000
-64217, promise, writeFile, 300000
-1, sync, write, 10
-1, sync, write, 30
-3, sync, write, 100
-10, sync, write, 300
-57, sync, write, 1000
-134, sync, write, 3000
-358, sync, write, 10000
-1051, sync, write, 30000
-3461, sync, write, 100000
-11628, sync, write, 300000
-144660, sync, write, 1000000
-4, callback, write, 10
-27, callback, write, 30
-253, callback, write, 100
-185, callback, write, 300
-370, callback, write, 1000
-786, callback, write, 3000
-2449, callback, write, 10000
-6493, callback, write, 30000
-24608, callback, write, 100000
-105805, callback, write, 300000
-3, promise, write, 10
-26, promise, write, 30
-175, promise, write, 100
-547, promise, write, 300
-2058, promise, write, 1000
-4223, promise, write, 3000
-8738, promise, write, 10000
-16210, promise, write, 30000
-42177, promise, write, 100000
-209737, promise, write, 300000
-20, syncWorkers, write, 10, 4
-2, syncWorkers, write, 30, 4
-2, syncWorkers, write, 100, 4
-4, syncWorkers, write, 300, 4
-902, syncWorkers, write, 1000, 4
-65, syncWorkers, write, 3000, 4
-162, syncWorkers, write, 10000, 4
-450, syncWorkers, write, 30000, 4
-1463, syncWorkers, write, 100000, 4
-5560, syncWorkers, write, 300000, 4
-133276, syncWorkers, write, 1000000, 4
-4, syncWorkers, write, 10, 4
-2, syncWorkers, write, 30, 4
-3, syncWorkers, write, 100, 4
-4, syncWorkers, write, 300, 4
-29, syncWorkers, write, 1000, 4
-62, syncWorkers, write, 3000, 4
-165, syncWorkers, write, 10000, 4
-469, syncWorkers, write, 30000, 4
-1439, syncWorkers, write, 100000, 4
-5576, syncWorkers, write, 300000, 4
-127831, syncWorkers, write, 1000000, 4
-3, syncWorkers, write, 10, 4
-4, syncWorkers, write, 10, 4
-2, syncWorkers, write, 30, 4
-4, syncWorkers, write, 100, 4
-31, syncWorkers, write, 300, 4
-41, syncWorkers, write, 1000, 4
-816, syncWorkers, write, 3000, 4
-2975, syncWorkers, write, 10000, 4
-4705, syncWorkers, write, 30000, 4
-3, syncWorkers, write, 10, 4
-11, syncWorkers, write, 30, 4
-5, syncWorkers, write, 100, 4
-13, syncWorkers, write, 300, 4
-74, syncWorkers, write, 1000, 4
-1, syncWorkers, write, 10, 4
-2, syncWorkers, write, 30, 4
-3, syncWorkers, write, 100, 4
-3, syncWorkers, write, 300, 4
-27, syncWorkers, write, 1000, 4
-53, syncWorkers, write, 3000, 4
-123, syncWorkers, write, 10000, 4
-307, syncWorkers, write, 30000, 4
-1036, syncWorkers, write, 100000, 4
-4270, syncWorkers, write, 300000, 4
-137530, syncWorkers, write, 1000000, 4
-1, syncWorkers, write, 10, 4
-1, syncWorkers, write, 30, 4
-4, syncWorkers, write, 100, 4
-3, syncWorkers, write, 300, 4
-28, syncWorkers, write, 1000, 4
-54, syncWorkers, write, 3000, 4
-123, syncWorkers, write, 10000, 4
-308, syncWorkers, write, 30000, 4
-1023, syncWorkers, write, 100000, 4
-4394, syncWorkers, write, 300000, 4
-137835, syncWorkers, write, 1000000, 4
-1, syncWorkers, write, 10, 4
-2, syncWorkers, write, 30, 4
-3, syncWorkers, write, 100, 4
-3, syncWorkers, write, 300, 4
-26, syncWorkers, write, 1000, 4
-54, syncWorkers, write, 3000, 4
-118, syncWorkers, write, 10000, 4
-278, syncWorkers, write, 30000, 4
-940, syncWorkers, write, 100000, 4
-3937, syncWorkers, write, 300000, 4
-130572, syncWorkers, write, 1000000, 4
+0.8401130009442568, sync, copy, 10, 4
+0.6868110001087189, sync, copy, 15, 4
+1.0207169987261295, sync, copy, 23, 4
+4.8057780005037785, sync, copy, 35, 4
+12.04369599930942, sync, copy, 53, 4
+11.25858400017023, sync, copy, 80, 4
+16.75897300057113, sync, copy, 120, 4
+25.89452200010419, sync, copy, 180, 4
+24.90040599927306, sync, copy, 270, 4
+30.29429299943149, sync, copy, 405, 4
+93.90812899917364, sync, copy, 608, 4
+145.59967099875212, sync, copy, 912, 4
+333.22032699920237, sync, copy, 1368, 4
+547.5196160003543, sync, copy, 2052, 4
+834.6314920000732, sync, copy, 3078, 4
+1318.2175099998713, sync, copy, 4617, 4
+2214.148127000779, sync, copy, 6926, 4
+2867.4391270000488, sync, copy, 10389, 4
+4357.344071000814, sync, copy, 15584, 4
+6968.418898999691, sync, copy, 23376, 4
+10794.35753799975, sync, copy, 35064, 4
+16474.750996001065, sync, copy, 52596, 4
+24973.775488000363, sync, copy, 78894, 4
+0.6396099999547005, callback, copy, 10, 4
+0.38910700008273125, callback, copy, 15, 4
+0.4897080007940531, callback, copy, 23, 4
+0.5552089996635914, callback, copy, 35, 4
+1.1520189996808767, callback, copy, 53, 4
+1.2649210002273321, callback, copy, 80, 4
+1.8228300008922815, callback, copy, 120, 4
+2.626942999660969, callback, copy, 180, 4
+3.843062000349164, callback, copy, 270, 4
+24.282494001090527, callback, copy, 405, 4
+44.82102799974382, callback, copy, 608, 4
+141.60549999959767, callback, copy, 912, 4
+289.0727960001677, callback, copy, 1368, 4
+502.889770001173, callback, copy, 2052, 4
+783.5186290014535, callback, copy, 3078, 4
+1236.4539860002697, callback, copy, 4617, 4
+2072.653370000422, callback, copy, 6926, 4
+2865.7681999988854, callback, copy, 10389, 4
+4436.02845299989, callback, copy, 15584, 4
+6822.591352000833, callback, copy, 23376, 4
+10529.888933999464, callback, copy, 35064, 4
+16159.907593999058, callback, copy, 52596, 4
+24307.583455000073, callback, copy, 78894, 4
+0.5113080013543367, promise, copy, 10, 4
+0.4330070000141859, promise, copy, 15, 4
+0.5448080003261566, promise, copy, 23, 4
+0.6863109990954399, promise, copy, 35, 4
+0.8515139985829592, promise, copy, 53, 4
+1.2123190015554428, promise, copy, 80, 4
+1.7347290012985468, promise, copy, 120, 4
+2.4670400004833937, promise, copy, 180, 4
+4.037864999845624, promise, copy, 270, 4
+6.017297999933362, promise, copy, 405, 4
+81.77512500062585, promise, copy, 608, 4
+142.88641399890184, promise, copy, 912, 4
+282.1848719995469, promise, copy, 1368, 4
+883.2438089996576, promise, copy, 2052, 4
+769.2364620007575, promise, copy, 3078, 4
+1230.9571430012584, promise, copy, 4617, 4
+1880.8436709996313, promise, copy, 6926, 4
+2839.989490000531, promise, copy, 10389, 4
+4394.293533001095, promise, copy, 15584, 4
+6675.393325001001, promise, copy, 23376, 4
+11788.63695500046, promise, copy, 35064, 4
+15724.20600200072, promise, copy, 52596, 4
+24692.063021000475, promise, copy, 78894, 4
+0.5919090006500483, sync, copy, 10, 4
+0.7954120002686977, sync, copy, 15, 4
+1.1775189992040396, sync, copy, 23, 4
+1.3975220005959272, sync, copy, 35, 4
+2.69964300096035, sync, copy, 53, 4
+3.975663999095559, sync, copy, 80, 4
+5.920694999396801, sync, copy, 120, 4
+7.73242500051856, sync, copy, 180, 4
+12.6790039986372, sync, copy, 270, 4
+17.41537999920547, sync, copy, 405, 4
+75.2629100009799, sync, copy, 608, 4
+162.56831400096416, sync, copy, 912, 4
+285.3265880011022, sync, copy, 1368, 4
+479.5444099996239, sync, copy, 2052, 4
+1125.3527929987758, sync, copy, 3078, 4
+1217.8987809997052, sync, copy, 4617, 4
+1863.6092950012535, sync, copy, 6926, 4
+2894.168851999566, sync, copy, 10389, 4
+4390.14138800092, sync, copy, 15584, 4
+6693.634990999475, sync, copy, 23376, 4
+11422.864894999191, sync, copy, 35064, 4
+15750.882972000167, sync, copy, 52596, 4
+24741.34913800098, sync, copy, 78894, 4
+0.3468059990555048, callback, copy, 10, 4
+0.4054069984704256, callback, copy, 15, 4
+0.5414090007543564, callback, copy, 23, 4
+0.6167099997401237, callback, copy, 35, 4
+0.9432150013744831, callback, copy, 53, 4
+2.7405449990183115, callback, copy, 80, 4
+1.9461319986730814, callback, copy, 120, 4
+2.8817469999194145, callback, copy, 180, 4
+3.986464999616146, callback, copy, 270, 4
+6.261002998799086, callback, copy, 405, 4
+86.24621599912643, callback, copy, 608, 4
+133.12068499997258, callback, copy, 912, 4
+274.9320129994303, callback, copy, 1368, 4
+479.22426600009203, callback, copy, 2052, 4
+772.1727740000933, callback, copy, 3078, 4
+1580.2904349993914, callback, copy, 4617, 4
+1868.1609269995242, callback, copy, 6926, 4
+2896.6977340001613, callback, copy, 10389, 4
+4388.12344700098, callback, copy, 15584, 4
+6668.611596001312, callback, copy, 23376, 4
+11319.284830000252, callback, copy, 35064, 4
+16019.640416000038, callback, copy, 52596, 4
+24231.61572900042, callback, copy, 78894, 4
+0.4095060005784035, promise, copy, 10, 4
+0.4325070008635521, promise, copy, 15, 4
+0.46240799874067307, promise, copy, 23, 4
+0.6261090002954006, promise, copy, 35, 4
+0.98751600086689, promise, copy, 53, 4
+1.2437190003693104, promise, copy, 80, 4
+1.6874270010739565, promise, copy, 120, 4
+3.300152000039816, promise, copy, 180, 4
+6.255296999588609, promise, copy, 270, 4
+6.2612980008125305, promise, copy, 405, 4
+51.537205999717116, promise, copy, 608, 4
+137.41695000045002, promise, copy, 912, 4
+385.1678909994662, promise, copy, 1368, 4
+547.8531490005553, promise, copy, 2052, 4
+845.6259039994329, promise, copy, 3078, 4
+1277.1231949999928, promise, copy, 4617, 4
+1873.993226999417, promise, copy, 6926, 4
+3009.9521830007434, promise, copy, 10389, 4
+4608.311984999105, promise, copy, 15584, 4
+7861.264053000137, promise, copy, 23376, 4
+10733.412298999727, promise, copy, 35064, 4
+16123.546238999814, promise, copy, 52596, 4
+23574.503500999883, promise, copy, 78894, 4
+0.6086099985986948, sync, copy, 10, 4
+0.8450130000710487, sync, copy, 15, 4
+1.1153180003166199, sync, copy, 23, 4
+1.3059209994971752, sync, copy, 35, 4
+2.5502410009503365, sync, copy, 53, 4
+2.9912480004131794, sync, copy, 80, 4
+4.661075001582503, sync, copy, 120, 4
+6.831411000341177, sync, copy, 180, 4
+11.678189000114799, sync, copy, 270, 4
+17.942889999598265, sync, copy, 405, 4
+70.79704499989748, sync, copy, 608, 4
+152.92007300071418, sync, copy, 912, 4
+350.4280670005828, sync, copy, 1368, 4
+527.0327220000327, sync, copy, 2052, 4
+830.5161299984902, sync, copy, 3078, 4
+1285.324485000223, sync, copy, 4617, 4
+1986.3011190015823, sync, copy, 6926, 4
+2921.1584390010685, sync, copy, 10389, 4
+4337.672542000189, sync, copy, 15584, 4
+7670.048005999997, sync, copy, 23376, 4
+10767.516102999449, sync, copy, 35064, 4
+15864.88117799908, sync, copy, 52596, 4
+24948.123781999573, sync, copy, 78894, 4
+0.3692060001194477, callback, copy, 10, 4
+0.3699060007929802, callback, copy, 15, 4
+0.4788080006837845, callback, copy, 23, 4
+0.5759100001305342, callback, copy, 35, 4
+0.805612999945879, callback, copy, 53, 4
+1.2302200011909008, callback, copy, 80, 4
+1.68312699906528, callback, copy, 120, 4
+2.4196390006691217, callback, copy, 180, 4
+4.74787700176239, callback, copy, 270, 4
+5.602890999987721, callback, copy, 405, 4
+36.57759699970484, callback, copy, 608, 4
+186.18363999947906, callback, copy, 912, 4
+365.94597500003874, callback, copy, 1368, 4
+575.3998950012028, callback, copy, 2052, 4
+831.716481000185, callback, copy, 3078, 4
+1272.7934750001878, callback, copy, 4617, 4
+1893.6335890013725, callback, copy, 6926, 4
+3020.34394899942, callback, copy, 10389, 4
+5700.254659000784, callback, copy, 15584, 4
+6724.664876000956, callback, copy, 23376, 4
+10748.858493000269, callback, copy, 35064, 4
+17008.49255000055, callback, copy, 52596, 4
+23774.049776000902, callback, copy, 78894, 4
+0.3787060007452965, promise, copy, 10, 4
+0.43500799871981144, promise, copy, 15, 4
+0.5840100012719631, promise, copy, 23, 4
+0.7580120004713535, promise, copy, 35, 4
+1.0042159985750914, promise, copy, 53, 4
+3.2830520011484623, promise, copy, 80, 4
+1.9853319991379976, promise, copy, 120, 4
+2.7677439991384745, promise, copy, 180, 4
+3.775160999968648, promise, copy, 270, 4
+5.141781998798251, promise, copy, 405, 4
+50.119997998699546, promise, copy, 608, 4
+144.08739399909973, promise, copy, 912, 4
+361.9143620003015, promise, copy, 1368, 4
+544.4961689990014, promise, copy, 2052, 4
+832.3817529994994, promise, copy, 3078, 4
+1689.6912019997835, promise, copy, 4617, 4
+2612.1794900000095, promise, copy, 6926, 4
+3426.1311910003424, promise, copy, 10389, 4
+4497.457959000021, promise, copy, 15584, 4
+6810.801350001246, promise, copy, 23376, 4
+10743.33265900053, promise, copy, 35064, 4
+16799.5150270015, promise, copy, 52596, 4
+23637.227887999266, promise, copy, 78894, 4
