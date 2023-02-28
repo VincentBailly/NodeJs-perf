@@ -3,7 +3,7 @@ const { parentPort, Worker, isMainThread, workerData } = require('node:worker_th
 
 
 if (isMainThread) {
-  const maxNumberOfWorkers = 10;
+  const maxNumberOfWorkers = 30;
   let workers = [];
   for (let i = 0; i < maxNumberOfWorkers; i++) {
     const worker = new Worker(__filename, {workerData: `${i}-`});

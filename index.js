@@ -76,29 +76,30 @@ let savedResultsFd = fs.openSync(savedResultsFile, 'a');
 
 let sizes = [10, 30, 100, 300, 1000, 3000, 10000, 30000, 100000, 300000, 1000000, 3000000, 4000000];
 let types = [
-  'sync',
-  'callback',
-  'promise',
-//  'syncWorkers',
+//  'sync',
+//  'callback',
+//  'promise',
+  'syncWorkers',
 ];
 let apis = [
-  'copy',
+//  'copy',
 //  'writeFile',
-//  'write',
+  'write',
 ];
 let numberOfWorkers = [
-  4,
-  10
+//  4,
+//  10,
+//  20,
+  30
 ]
-let repeat = 3
+let repeat = 1
 
 for(let i = 0; i < repeat; i++) {
   for(let api of apis) {
     for(let type of types) {
       const numberOfWorker = type === "syncWorkers" ? numberOfWorkers : [4];
       for (let workerCount of numberOfWorker) {
-	//      for(let size of sizes) {
-	for(let size = 10; size < 100000 ; size = Math.round(size * 1.5)) {
+	for(let size = 10; size < 4000000 ; size = Math.round(size * 1.5)) {
 	  await cleanup(tmpFolder);
 	  process.stdout.write(`starting\n`)
 	  const duration = await copy(size, type, api, workerCount);
