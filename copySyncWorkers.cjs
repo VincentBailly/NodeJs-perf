@@ -11,8 +11,9 @@ if (isMainThread) {
     workers.push(worker);
   }  
   
-  module.exports.copyBulk = function (files, size, workerCount, tmpFolder) {
+  module.exports.copyBulk = function (files, workerCount, tmpFolder) {
     let i = 0;
+    let size = files.length;
     const perSplit = Math.ceil(size / workerCount);
     const splits = [];
     return new Promise((resolve) => {

@@ -25,8 +25,12 @@ if (isMainThread) {
       }
       for (let i = 0; i < maxNumberOfWorkers; i++) {
 	const entries_split = entries.slice(i * perSplit, (i+1)*perSplit);
-	workers[i].once('message', onDone);
-	workers[i].postMessage({ folder, entries: entries_split});
+	if (entries_split.length === 0) {
+	  onDone();
+	} else {
+	  workers[i].once('message', onDone);
+	  workers[i].postMessage({ folder, entries: entries_split});
+	}
       }
     });
   }
