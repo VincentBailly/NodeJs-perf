@@ -140,7 +140,7 @@ let apis = [
   'write',
 ];
 let numberOfWorkers = [
-//  4,
+  4,
 //  10,
 //  20,
 //  30

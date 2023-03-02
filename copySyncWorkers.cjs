@@ -7,7 +7,7 @@ if (isMainThread) {
   let workers = [];
   for (let i = 0; i < maxNumberOfWorkers; i++) {
     const worker = new Worker(__filename, {workerData: `${i}-`});
-    worker.unref();
+//    worker.unref();
     workers.push(worker);
   }  
   
