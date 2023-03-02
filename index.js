@@ -129,15 +129,15 @@ function limit(concurrency, call) {
 let savedResultsFile = 'results.csv';
 
 let types = [
-//  'sync',
+  'sync',
 //  'callback',
-  'promise',
+//  'promise',
 //  'syncWorkers',
 ];
 let apis = [
   'copy',
-//  'writeFile',
-//  'write',
+  'writeFile',
+  'write',
 ];
 let numberOfWorkers = [
 //  4,
@@ -146,14 +146,15 @@ let numberOfWorkers = [
   30
 ]
 let concurrencies = [
-  1,
-  10,
-  100,
-  1000,
-  10000
+  4
+//  1,
+//  10,
+//  100,
+//  1000,
+//  10000
 ];
 let maxSize = 100000;
-let minSize = 5000;
+let minSize = 10;
 
 function pickFrom(array) {
   return array[Math.floor(Math.random()*array.length)];

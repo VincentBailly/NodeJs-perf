@@ -12,15 +12,15 @@ ${kustoData}
 ];
 data
 | parse kind=regex EventText with Duration:double ", " Type ", " Api ", " Size:long ", " Workers:long ", " Concurrency:long
-| where Type == "promise"
+| where Type == "sync"
 | where Size > 10
 | extend OrderOfSize = log10(Size)
-| summarize Count = count(), percentile(Duration, 50) by bin(OrderOfSize,0.1), tostring(Concurrency)
+| summarize Count = count(), P75 = percentile(Duration, 75) by bin(OrderOfSize,0.1), Api
 | where Count > 3
 | project-away Count
 | extend Size = pow(10,OrderOfSize)
-| project Size, Concurrency, percentile_Duration_50
-| render scatterchart with (xaxis=log, yaxis=log)`;
-
+| project Size, Api, P75
+| render linechart with (xaxis=log, yaxis=log)
+`;
   fs.writeFileSync("kustoQuery.txt", query);
 }
